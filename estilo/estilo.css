@@ -465,6 +465,32 @@ i {
 	margin-left: auto;
 }
 
+
+/* Thank you page */
+
+.thankyou {
+	margin: 100px auto;
+	text-align: center;
+}
+
+.thankyou h1 {
+	font-size: 150px;
+	font-weight: bold;
+	color: #32E0C4;
+}
+
+.thankyou a {
+	border: none;
+	text-decoration: none;
+	font-size: 25px;
+	font-weight: bold;
+	color: #353535;
+	background: #32E0C4;
+	padding: 5px 100px 5px 100px;
+	margin: 0 auto;
+}
+
+
 /* RESPONSIVIDADE */
 
 @media only screen and (max-width: 1300px) {
@@ -640,5 +666,15 @@ i {
 	 .form-area textarea {
 	 	margin: 20px auto;
 	 }
+
+	 .thankyou {
+	 	margin: 50px auto;
+	 	padding: 0 20px;
+	 }
+
+	 .thankyou h1 {
+	 	font-size: 100px;
+	 }
 }
+
 
