@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="130" height="130" viewBox="0 0 130 130">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_11" data-name="Retângulo 11" width="130" height="130" transform="translate(1025 2099)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.5" y1="-0.042" x2="0.5" y2="1.106" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#6dc7ff"/>
+      <stop offset="1" stop-color="#32e0c4"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" y1="-0.003" x2="0.5" y2="0.999" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1a6dff"/>
+      <stop offset="1" stop-color="#32e0c4"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" y1="-7.583" y2="16.482" xlink:href="#linear-gradient-2"/>
+  </defs>
+  <g id="price" transform="translate(-1025 -2099)" clip-path="url(#clip-path)">
+    <g id="icons8-pasta" transform="translate(1010 2084)">
+      <path id="Caminho_22" data-name="Caminho 22" d="M115,130h15a5,5,0,0,0,5-5V110Z" fill="url(#linear-gradient)"/>
+      <path id="Caminho_23" data-name="Caminho 23" d="M132.5,47.5H115V45a5.005,5.005,0,0,0-5-5V32.5A12.514,12.514,0,0,0,97.5,20h-35A12.514,12.514,0,0,0,50,32.5V40a5.005,5.005,0,0,0-5,5v2.5H27.5A12.514,12.514,0,0,0,15,60v67.5A12.514,12.514,0,0,0,27.5,140h105A12.514,12.514,0,0,0,145,127.5V60A12.514,12.514,0,0,0,132.5,47.5ZM95,47.5V45h15v2.5ZM65,40V35H95v5a5.005,5.005,0,0,0-5,5v2.5H70V45A5.005,5.005,0,0,0,65,40ZM55,32.5A7.509,7.509,0,0,1,62.5,25h35a7.509,7.509,0,0,1,7.5,7.5V40h-5V35a5.005,5.005,0,0,0-5-5H65a5.005,5.005,0,0,0-5,5v5H55ZM50,45H65v2.5H50ZM27.5,52.5h105A7.509,7.509,0,0,1,140,60v1.91L128.025,85.858a7.452,7.452,0,0,1-6.7,4.142H105V82.5a5.005,5.005,0,0,0-5-5H95a5.005,5.005,0,0,0-5,5V90H70V82.5a5.005,5.005,0,0,0-5-5H60a5.005,5.005,0,0,0-5,5V90H38.678a7.452,7.452,0,0,1-6.7-4.143L20,61.91V60A7.509,7.509,0,0,1,27.5,52.5Zm72.5,30V100a2.5,2.5,0,0,1-5,0V82.5Zm-35,0V100a2.5,2.5,0,0,1-5,0V82.5ZM132.5,135H27.5a7.509,7.509,0,0,1-7.5-7.5V73.09l7.5,15A12.425,12.425,0,0,0,38.677,95H55v5a7.5,7.5,0,0,0,15,0V95H90v5a7.5,7.5,0,0,0,15,0V95h16.322A12.427,12.427,0,0,0,132.5,88.092l7.5-15V127.5A7.509,7.509,0,0,1,132.5,135Z" fill="url(#linear-gradient-2)"/>
+      <path id="Caminho_24" data-name="Caminho 24" d="M65,57.5H95v5H65Z" fill="url(#linear-gradient-3)"/>
+    </g>
+  </g>
+</svg>

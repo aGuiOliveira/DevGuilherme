@@ -1,0 +1,737 @@
+body, h1, h2, p, ul, li, a {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: "Lato", Helvetica, Arial, sans-serif;
+	color: black;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+/* Gui-info */
+
+.container-gui-info {
+	background: black;
+	color: white;
+	position: fixed;
+	width: 100%;
+}
+
+.gui-info {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 10px;
+}
+
+.gui-info a {
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: bold;
+	color: #353535;
+	background: #32E0C4;
+	padding: 5px 15px;
+}
+
+
+/* SuperInfo */
+
+.superinfo {
+	display: flex;
+	max-width: 1170px;
+	margin: 0 auto;
+	padding: 10px 0;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: center;
+
+}
+
+.superinfo img {
+	margin-left: 10px;
+}
+
+.superinfo-icones {
+	display: flex;
+	min-width: 170px;
+	min-height: 50px;
+	align-items: center;
+}
+
+.superinfo-icones p {
+	font-size: 0.85em;
+	margin-left: 10px;
+}
+
+.container-icones {
+	display: flex;
+}
+
+@media (max-width: 530px) {
+	.superinfo-icones:nth-child(1) {
+		display: none;
+	}
+
+	.superinfo img {
+		max-width: 130px;
+	}
+
+	.superinfo-icones:nth-child(2){
+		max-width: 130px;
+		min-height: 0px;
+	}
+}
+
+@media (max-width: 315px) {
+	.superinfo-icones {
+		display: none;
+	}
+}
+
+@media (max-width: 1300px) {
+	.superinfo {
+		max-width: 960px;
+	}
+}
+
+
+/* Hero */
+
+.hero {
+	padding-top: 45px;
+	color: white;
+	background: url('../img/barber.png') no-repeat,
+				rgba(0, 0, 0, 1);
+	background-size: 1600px;
+	background-position: center;
+}
+
+@media (min-width: 1375px) {
+	.hero {
+		background-size: 100%;
+		background-position: top;
+	}
+}
+
+/* Hero Content */
+
+.hero-content {
+	max-width: 1170px;
+	margin-top: 180px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 10px;
+	padding-bottom: 180px;
+}
+
+.hero-content h1 {
+	font-size: 2.5em;
+	margin-bottom: 30px;
+}
+
+.hero-content p {
+	max-width: 470px;
+	margin-bottom: 40px;
+}
+
+.hero-content a {
+	color: white;
+	background: #FAA846;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	border-radius: 10px;
+}
+
+.hero-content a:hover {
+	background: #C87D23;
+}
+
+@media (max-width: 530px) {
+	.hero-content {
+		text-align: center;
+	}
+}
+
+@media (max-width: 1300px) {
+	.hero-content {
+		max-width: 960px;
+	}
+}
+
+/* Sessão Sobre */
+
+.sobre-content {
+	max-width: 1170px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 60px;
+	margin-bottom: 60px;
+
+}
+
+.img-sobre {
+	max-width: 500px;
+	margin-right: 60px;
+	margin-left: 60px;
+}
+
+.texto-sobre {
+	max-width: 400px;
+	align-self: center;
+	margin-right: 60px;
+}
+
+.texto-sobre h3 {
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.texto-sobre h2 {
+	font-size: 2em;
+	font-weight: bold;
+	color: #FAA846;
+	margin-bottom: 40px;
+}
+
+#risquinho-sobre {
+	background: #FAA846;
+	padding: 1px
+}
+
+@media (max-width: 1080px) {
+	#risquinho-sobre {
+		display: none;
+	}
+
+	.texto-sobre {
+		margin-left: 60px;
+		text-align: center;
+	}
+
+	.texto-sobre h2 {
+		margin-bottom: 10px;
+	}
+}
+
+/* Seção Feedback */
+
+.feedbackground {
+	background: url('../img/ImgCitacao.png'),
+				rgba(0, 0, 0, 1.0);
+
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 50px 0;
+
+}
+
+.feedbackground img {
+	width: 100px;
+}
+
+.feedback-info {
+	width: 100%;
+}
+
+.feedback-info h1 {
+	color: #c3c3c3;
+	font-size: 2em;
+	text-align: center;
+	margin: 25px;
+
+}
+
+.feedback-info h2 {
+	color: #FAA846;
+	font-size: 1em;
+	text-align: center;
+}
+
+
+/* Seção Servicos */
+
+.servicos {
+	background: #343434;
+
+}
+
+/* Parte do Titulo */
+
+.servicos-titulos {
+	display: flex;
+	flex-flow: column;
+	text-align: center;
+	padding: 10px;
+}
+
+.servicos-titulos img {
+	width: 75px;
+	align-self: center;
+	padding-top: 35px;
+}
+
+.servicos-titulos h2 {
+	color: #FAA846;
+	font-size: 30px;
+}
+
+.servicos-titulos h3 {
+	color: #FFFFFF;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+@media (max-width: 500px) {
+	.servicos-titulos h2 {
+		font-size: 23px;
+	}
+	.servicos-titulos h3 {
+		font-size: 16px;
+	}
+}
+
+/* Icones depois do Titulo */
+
+.servicos-container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	max-width: 1170px;
+	margin: 0 auto;
+	padding-top: 50px;
+	padding-bottom: 45px;
+}
+
+.servicos-servico {
+	max-width: 250px;
+	min-height: 300px;
+	margin: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: end;
+	text-align: center;
+}
+
+.servicos-servico p {
+	color: white;
+	padding-top: 35px;
+}
+
+
+.servicos-servico h3 {
+	color: white;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#bigodao {
+	margin-bottom: 30px;
+}
+
+/* Lista de Cortes */
+
+.cortes-bg {
+	max-width: 1170px;
+	background: #222222;
+	margin: 0 auto;
+	margin-bottom: 45px;
+}
+
+.container-cortes-lista {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: 10px 25px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.cortes-listitulo {
+	margin-top: 10px;
+	min-width: 45%;
+
+}
+
+.cortes-listitulo h2{
+	color: #FAA846;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+.cortes-listitulo h3{
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 13px;
+	margin: 0;
+	margin-bottom: 15px;
+}
+
+#segundo-listitulo {
+	padding-top: 30px;
+}
+
+.cortes-lista-itens {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px dashed  #707070;
+	color: white;
+	margin-bottom: 25px;
+}
+
+.span-preco {
+	color: #FAA846;
+}
+
+		/* Ajustes de tela */
+
+@media (max-width: 1080px) {
+	.container-cortes-lista {
+		margin-left: 10px;
+		margin-right: 10px;
+		padding-top: 15px;
+	}
+
+	.cortes-bg {
+		max-width: 90%;
+	}
+}
+
+@media (max-width: 740px) {
+	.cortes-listitulo {
+		min-width: 95%;
+	}
+}
+
+/* Seção Cortes de Cabelo */
+
+.cortes-de-cabelo {
+	text-align: center;
+	max-width: 1170px;
+	margin: 30px auto;
+}
+
+.img-linha-cortes {
+	display: flex;
+	justify-content: center;
+}
+
+.img-linha-cortes img {
+	width: 75px;
+	align-self: center;
+}
+
+.img-titulo-cortes {
+	margin-top: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.img-titulo-cortes img {
+	height: 60px;
+}
+
+.img-titulo-cortes h2 {
+	color: #FAA846;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.fotos-cortes-container {
+	max-width: 1170px;
+	display: flex;
+	margin: 30px auto;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.foto-corte {
+	max-width: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin: 25px 10px;
+}
+
+.foto-corte h3 {
+	font-size: 30px;
+	margin: 10px 0;
+}
+
+.risquinho-cortes {
+	width: 80px;
+	align-self: center;
+	margin-bottom: 20px;
+}
+
+.agendar-corte {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: url('../img/ImgCitacao.png'),
+				rgba(0, 0, 0, 1.0);
+	
+	padding: 100px 60px;
+	text-align: center;
+
+}
+
+.agendar-corte h1 {
+	color: white;
+	font-size: 45px;
+	font-weight: normal;
+}
+
+.agendar-corte a {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	background:#FAA846;
+	border-radius: 10px;
+	min-width: 200px;
+	padding: 15px 0;
+	text-transform: uppercase;
+	margin-top: 35px;
+
+}
+
+.agendar-corte a:hover {
+	background: #C87D23;
+}
+
+@media (max-width: 680px) {
+	.agendar-corte h1 {
+		font-size: 30px;
+	}
+}
+
+@media (max-width: 410px) {
+	.agendar-corte h1 {
+		font-size: 30px;
+	}
+
+	.agendar-corte {
+		padding: 60px 15px;
+	}
+}
+
+/* Barbeiros da Casa */
+
+.barbeiros-bg {
+	background: #222222;
+}
+
+.barbeiros-content {
+	max-width: 1170px;
+	margin: 0 auto;
+	padding: 60px 0;
+}
+
+.barbeiros-titulos {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.barbeiros-titulos img {
+	width: 75px;
+}
+
+.barbeiros-titulos h2 {
+	color: #FAA846;
+	font-size: 40px;
+	font-weight: bold;
+	margin: 15px;
+}
+
+.barbeiros-titulos h3 {
+	color: white;
+	font-size: 18px;
+	margin-bottom: 0;
+	margin-top: 10px;
+}
+
+.barbeiros-titulos p {
+	color: white;
+	max-width: 50%;
+}
+
+.barbeiros-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: 50px;
+}
+
+.barbeiros-barbeiro {
+	max-width: 280px;
+}
+
+.barbeiros-container h2 {
+	color: #FAA846;
+	font-size: 30px;
+	font-weight: bold;
+	margin: 15px;
+	text-align: center;
+}
+
+@media (max-width: 1000px) {
+	.barbeiros-titulos p {
+		max-width: 80%;
+	}
+}
+
+/* Seção Marque um horário */
+
+.horario-container {
+	max-width: 1000px;
+	margin: 50px auto;
+}
+
+.titulos-horario {
+	margin-bottom: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+.titulos-horario h2 {
+	color: #FAA846;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.titulos-horario h3 {
+	font-size: 17px;
+	font-weight: bold;
+	text-align: center;
+	margin: 0px;
+}
+
+.titulos-horario img {
+	max-width: 100px;
+	margin-bottom: 15px;
+}
+
+/* Forms */
+
+
+.flex-form {
+	display: flex;
+	align-items: center;
+	font-weight: bold;
+}
+
+.flex-form img {
+	max-width: 30px;
+	margin: 5px;
+}
+
+.horario-forms {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: stretch;
+	justify-content: space-around;
+}
+
+.horario-form-padrao {
+	margin-top: 15px;
+	min-height: 30px;
+	min-width: 30%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.horario-form-padrao input {
+	min-width: 100%;
+	min-height: 30px;
+}
+
+#bigicon {
+	max-height: 20px;
+}
+
+#form-diferenciado {
+	min-width: 97%;
+}
+
+#form-diferenciado textarea {
+	min-height: 100px;
+	text-align: start;
+}
+
+#botao-enviar {
+	text-decoration: none;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	background:#FAA846;
+	max-width: 175px;
+	padding: 10px 0;
+	text-transform: uppercase;
+	margin-top: 15px;
+	margin-bottom: 15px;
+
+}
+
+@media (max-width: 600px) {
+	.horario-form-padrao {
+		min-width: 97%;
+	}
+
+	.horario-form-padrao input{
+		min-height: 35px;
+	}
+}
+
+/* Footer */
+
+.footer-container {
+	background: #222222;
+}
+
+.footer-content {
+	max-width: 1000px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.info-footer {
+	color: white;
+	margin: 30px;
+}
+
+.copyright {
+	text-align: center;
+	font-size: 12px;
+	color: white;
+	padding-bottom: 25px;
+}

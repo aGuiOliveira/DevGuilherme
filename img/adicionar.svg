@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="216" height="46" viewBox="0 0 216 46">
+  <defs>
+    <filter id="Retângulo_1" x="0" y="0" width="216" height="46" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="adicionar" transform="translate(3 2)">
+    <g transform="matrix(1, 0, 0, 1, -3, -2)" filter="url(#Retângulo_1)">
+      <rect id="Retângulo_1-2" data-name="Retângulo 1" width="210" height="40" rx="4" transform="translate(3 2)" fill="#45d"/>
+    </g>
+    <text id="ADD" transform="translate(16 26)" fill="#fff" font-size="16" font-family="IBMPlexSans-Medium, IBM Plex Sans" font-weight="500"><tspan x="0" y="0">Add</tspan></text>
+    <circle id="Elipse_4" data-name="Elipse 4" cx="10" cy="10" r="10" transform="translate(180 10)" fill="#fff"/>
+    <rect id="Retângulo_28" data-name="Retângulo 28" width="2" height="12" transform="translate(189 14)" fill="#45d"/>
+    <rect id="Retângulo_29" data-name="Retângulo 29" width="2" height="12" transform="translate(196 19) rotate(90)" fill="#45d"/>
+  </g>
+</svg>
